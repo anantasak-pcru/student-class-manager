@@ -1,0 +1,41 @@
+php artisan migrate  --path=/database/migrations/
+
+language: {
+            processing: 'กำลังโหลด...',
+            loadingRecords: "กำลังโหลด...",
+            paginate: {
+                previous: "ก่อนหน้า",
+                next: "ถัดไป"
+            },
+            info: "แสดงทั้งหมด _TOTAL_ รายการ",
+            infoEmpty: "แสดง 0 รายการ",
+            infoFiltered: "(กรองจากรายการทั้งหมด _MAX_ รายการ)",
+            search: '<i class="search icon"></i> ค้นหา :',
+            emptyTable: '<i class="server icon"></i> ไม่มีข้อมูล',
+            zeroRecords: '<i class="server icon"></i> ไม่มีข้อมูล',
+        }
+        // Data Table Langague
+{
+    "decimal":        "",
+    "emptyTable":     "No data available in table",
+    "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+    "infoEmpty":      "Showing 0 to 0 of 0 entries",
+    "infoFiltered":   "(filtered from _MAX_ total entries)",
+    "infoPostFix":    "",
+    "thousands":      ",",
+    "lengthMenu":     "Show _MENU_ entries",
+    "loadingRecords": "Loading...",
+    "processing":     "Processing...",
+    "search":         "Search:",
+    "zeroRecords":    "No matching records found",
+    "paginate": {
+        "first":      "First",
+        "last":       "Last",
+        "next":       "Next",
+        "previous":   "Previous"
+    },
+    "aria": {
+        "sortAscending":  ": activate to sort column ascending",
+        "sortDescending": ": activate to sort column descending"
+    }
+}

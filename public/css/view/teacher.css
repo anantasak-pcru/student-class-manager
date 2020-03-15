@@ -1,0 +1,9 @@
+#table_wrapper{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+
+.dataTables_filter,.pagination {
+    float: right !important;
+  }

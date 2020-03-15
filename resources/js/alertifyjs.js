@@ -1,0 +1,1 @@
+global.alertify = require('alertifyjs')
