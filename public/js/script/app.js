@@ -29938,11 +29938,11 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\PHP\project\php_midterm_project\student_checker\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! D:\PHP\project\php_midterm_project\student_checker\resources\sass\fontausome.scss */"./resources/sass/fontausome.scss");
-__webpack_require__(/*! D:\PHP\project\php_midterm_project\student_checker\resources\sass\sweetalert.scss */"./resources/sass/sweetalert.scss");
-__webpack_require__(/*! D:\PHP\project\php_midterm_project\student_checker\resources\sass\fomaticui.scss */"./resources/sass/fomaticui.scss");
-module.exports = __webpack_require__(/*! D:\PHP\project\php_midterm_project\student_checker\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/mengx/Documents/php/student-class-manager/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /home/mengx/Documents/php/student-class-manager/resources/sass/fontausome.scss */"./resources/sass/fontausome.scss");
+__webpack_require__(/*! /home/mengx/Documents/php/student-class-manager/resources/sass/sweetalert.scss */"./resources/sass/sweetalert.scss");
+__webpack_require__(/*! /home/mengx/Documents/php/student-class-manager/resources/sass/fomaticui.scss */"./resources/sass/fomaticui.scss");
+module.exports = __webpack_require__(/*! /home/mengx/Documents/php/student-class-manager/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

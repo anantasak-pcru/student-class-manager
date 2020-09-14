@@ -126,17 +126,17 @@ document.getElementById('chk_pw').addEventListener('click',async ()=>{
                     <div class="two fields">
                         <div class="field">
                             <label>ที่อยู่</label>
-                            <input maxlength="100" value="{{$data->address}}" placeholder="ชื่อ" name="address" type="text">
+                            <input maxlength="100" value="{{$data->address}}" placeholder="ที่อยู่" name="address" type="text">
                         </div>
                         <div class="field">
                             <label>เบอร์โทร</label>
-                            <input maxlength="15" value="{{$data->tel}}" placeholder="สกุล" name="tel" type="text">
+                            <input maxlength="15" value="{{$data->tel}}" placeholder="เบอร์โทร" name="tel" type="text">
                         </div>
                     </div>
                     <div class="two fields">
                         <div class="field">
                             <label>สาขา</label>
-                            <input readonly value="{{$data->major}}" placeholder="Username" type="text">
+                            <input readonly value="{{$data->major}}" placeholder="สาขา" type="text">
                         </div>
                         <div class="field">
                             <label>คณะ</label>

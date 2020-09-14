@@ -10746,7 +10746,7 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\PHP\project\php_midterm_project\student_checker\resources\js\jquery.js */"./resources/js/jquery.js");
+module.exports = __webpack_require__(/*! /home/mengx/Documents/php/student-class-manager/resources/js/jquery.js */"./resources/js/jquery.js");
 
 
 /***/ })

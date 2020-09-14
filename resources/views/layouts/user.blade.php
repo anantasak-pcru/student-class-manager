@@ -8,7 +8,7 @@
         Teacher Panel
         @endif
         @if(Auth::guard('student')->check())
-        Teacher Panel
+        Student Panel
         @endif
     </title>
     <link rel="stylesheet" href="{{asset('css/base/fontausome.css')}}">

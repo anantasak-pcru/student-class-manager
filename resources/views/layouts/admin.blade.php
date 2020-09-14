@@ -91,8 +91,8 @@
 
                     <div class="header">ลงทะเบียนรายวิชา</div>
                     <div class="ui divider"></div>
-                    <a class="item" href="{{url('/admin/admin')}}">จัดการข้อมูลการลงทะเบียนรายวิชา</a>
-                    <a class="item" href="{{url('/admin/admin/report')}}">รายงานข้อมูลการลงทะเบียนรายวิชา</a>
+                    <a class="item" href="{{url('/admin/course_regist')}}">จัดการข้อมูลการลงทะเบียนรายวิชา</a>
+                    <a class="item" href="{{url('/admin/course_regist/report')}}">รายงานข้อมูลการลงทะเบียนรายวิชา</a>
 
                 </div>
             </div>

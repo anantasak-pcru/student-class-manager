@@ -189,7 +189,7 @@ async function insert(table) {
         '<input maxlength="15" value="" id="tel" type="text" placeholder="เบอร์โทร">' +
         '</div><br><br>' +
         '<div style="width:100%;" class="ui labeled input"><div class="ui label">รหัสผ่าน</div>' +
-        '<input maxlength="100" value="" id="password" type="text" placeholder="รหัสผ่าน">' +
+        '<input maxlength="100" value="" id="password" type="password" placeholder="รหัสผ่าน">' +
         '</div><br><br>' +
         '<select style="width:100%;" id="fac_id" class="ui dropdown" required>' +
         fac_val +

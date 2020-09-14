@@ -13635,7 +13635,7 @@ window.Swal = __webpack_provided_window_dot_jQuery = sweetalert2__WEBPACK_IMPORT
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\PHP\project\php_midterm_project\student_checker\resources\js\sweetalert.js */"./resources/js/sweetalert.js");
+module.exports = __webpack_require__(/*! /home/mengx/Documents/php/student-class-manager/resources/js/sweetalert.js */"./resources/js/sweetalert.js");
 
 
 /***/ })

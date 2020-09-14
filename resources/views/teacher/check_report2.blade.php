@@ -50,6 +50,7 @@ table {
                 </thead>
                 <tbody>
                     {{-- @foreach ($value as $val) --}}
+                    @isset ($value[0])
                     @foreach ($value[0] as $s)
                     <tr>
                         <td>{{$loop->iteration}}</td>
@@ -73,6 +74,17 @@ table {
                     </tr>
                     {{-- @endforeach --}}
                     @endforeach
+                    @endisset
+
+                    @if(!isset($value[0]))
+                    <tr>
+                        <td></td>
+                        <td style="text-align: center;">
+                            ไม่พบข้อมูล !!
+                        </td>
+                        <td></td>
+                    </tr>
+                    @endif
                 </tbody>
             </table>
         </div>
