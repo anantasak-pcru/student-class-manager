@@ -23,31 +23,36 @@
 </p>
 
 ## How to use
-```
+```bash
 > npm run dev
 ```
-```
+```bash
 > composer update
 ```
+```bash
+> php artisan migrate
 ```
+```bash
 > php artisan db:seed
 ```
-```
-> php artisan run serve
+```bash
+> php artisan serve
 ```
 ## Default User
 ### **Note** : Please run seed first.
 ```
 php artisan db:seed
+
 ```
+
 | USER | PASSWORD | 
 | :-- | :-- |
 | Admin | Password |
 | Teacher | Password |
 | Student | Password |
-```
 
-```
+<br>
+
 ## License
 
 [MIT license](https://opensource.org/licenses/MIT)

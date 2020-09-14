@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 
-class TeacherSeeder extends Seeder
+class CheckSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,7 +15,7 @@ class TeacherSeeder extends Seeder
     {
         DB::unprepared(
             File::get(
-                database_path('seeds/teachers.sql')
+                database_path('seeds/checks.sql')
             )
         );
     }

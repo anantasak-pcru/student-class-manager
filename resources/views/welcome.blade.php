@@ -56,7 +56,7 @@
 
             <h3>Copyright <span><i class="fas fa-copyright"></i></span> Anantasak Nonkhunthod 2019</h3>
             <div class="line-break"></div>
-            <a href="https://github.com/mengxyz/php_midterm_project/tree/master/student_checker"><i
+            <a href="https://github.com/anantasak-pcru/student-class-manager"><i
                     class="fab fa-github-alt lg"></i> Github.com</a>
 
         </footer>

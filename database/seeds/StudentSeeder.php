@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\File;
+
 
 class StudentSeeder extends Seeder
 {
@@ -11,14 +14,10 @@ class StudentSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('students')->insert([
-            'std_id' => 'Student',
-            'f_name' => 'Student',
-            'l_name' => 'Student',
-            'password' => Hash::make('password'),
-            'address' => null,
-            'password' => null,
-            'm_id' => null,
-        ]);
+        DB::unprepared(
+            File::get(
+                database_path('seeds/students.sql')
+            )
+        );
     }
 }
